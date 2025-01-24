@@ -1,9 +1,11 @@
 import React from 'react'
+import SearchInput from './components/SearchInput';
+
 
 const App = () => {
   return (
-    <div>
-      <h1 className='text-5xl'>hdshjdhd</h1>
+    <div className='h-screen w-full bg-gray-100 '>
+      <SearchInput />
     </div>
   )
 }
